@@ -13,13 +13,49 @@ class Principal extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Text(
-            "Hola mundo",
-            style: TextStyle(
-              color: Colors.blue,
-              fontSize: 24,
-              decoration: TextDecoration.none,
-            ),
+          child: Column(
+            children: [
+              Text(
+                "SENA - Servicio Nacional de Aprendizaje",
+                style: TextStyle(
+                  color: const Color.fromARGB(255, 29, 122, 0),
+                  fontSize: 35,
+                  decoration: TextDecoration.none,
+                ),
+              ),
+              Text(
+                "Centro de comercio y servicios",
+                style: TextStyle(
+                  color: const Color.fromARGB(255, 57, 204, 13),
+                  fontSize: 24,
+                  decoration: TextDecoration.none,
+                ),
+              ),
+              Text(
+                "ADSO - Analisis y desarrollo de software",
+                style: TextStyle(
+                  color: const Color.fromARGB(255, 57, 204, 13),
+                  fontSize: 24,
+                  decoration: TextDecoration.none,
+                ),
+              ),
+              Text(
+                "Ficha 3409633",
+                style: TextStyle(
+                  color: const Color.fromARGB(255, 57, 204, 13),
+                  fontSize: 24,
+                  decoration: TextDecoration.none,
+                ),
+              ),
+              Text(
+                "Aprendices: Juan Jaramillo - Katherin Sanchez",
+                style: TextStyle(
+                  color: const Color.fromARGB(255, 0, 0, 0),
+                  fontSize: 24,
+                  decoration: TextDecoration.none,
+                ),
+              ),
+            ],
           ),
         ),
       ),
