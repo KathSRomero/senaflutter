@@ -18,7 +18,7 @@ class Principal extends StatelessWidget {
               Text(
                 "SENA - Servicio Nacional de Aprendizaje",
                 style: TextStyle(
-                  color: const Color.fromARGB(255, 29, 122, 0),
+                  color: const Color.fromARGB(255, 31, 133, 0),
                   fontSize: 35,
                   decoration: TextDecoration.none,
                 ),
